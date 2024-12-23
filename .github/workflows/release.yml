@@ -73,6 +73,7 @@ jobs:
         target:
           - x86_64-apple-darwin
           - aarch64-apple-darwin
+          - aarch64-apple-ios
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
